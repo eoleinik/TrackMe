@@ -8,3 +8,5 @@
 /wrong
 /.idea
 /old_training
+*.pez
+/try.py
