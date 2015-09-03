@@ -16,7 +16,7 @@ Rough description of the algorithm:
 
 [VLFeat](http://www.vlfeat.org) (SIFT descriptor)
 
-Packages from <i>requirements.txt</i>
+Packages from `requirements.txt`
 
 #Use
 To start, run
@@ -32,6 +32,6 @@ App was trained to distinguish between 8 classes: [Nothing, A, B, C, F, P, V, Ad
 #Training the Classifier
 For the app, I implemented and tried 2 classifiers - Bayes and k-Nearest Neighbours. Bayes was more accurate, classifying gestures correctly up to 90% of the time with good lighting conditions.
 
-The classifier was trained using ~100 images I generated for each class (its settings are pickled in <i>features.py</i>). If you would like to re-train it using the classifier, you can place images in the "test" folder in the root of the project and uncomment the lines in the beginning of <i>GestureRecognition(camera).py</i>.
+The classifier was trained using ~100 images I generated for each class (its settings are pickled in <i>features.py</i>). If you would like to re-train it using the classifier, you can place images in the "test" folder in the root of the project and uncomment the lines in the beginning of `GestureRecognition(camera).py`
 
 Happy playing!
